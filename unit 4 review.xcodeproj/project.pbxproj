@@ -8,20 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		D35C02B41F8EAD3700ACDA11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C02B31F8EAD3700ACDA11 /* AppDelegate.swift */; };
-		D35C02B61F8EAD3700ACDA11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C02B51F8EAD3700ACDA11 /* ViewController.swift */; };
 		D35C02B91F8EAD3700ACDA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C02B71F8EAD3700ACDA11 /* Main.storyboard */; };
 		D35C02BB1F8EAD3700ACDA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35C02BA1F8EAD3700ACDA11 /* Assets.xcassets */; };
 		D35C02BE1F8EAD3700ACDA11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C02BC1F8EAD3700ACDA11 /* LaunchScreen.storyboard */; };
+		D35C02C81F8EB12500ACDA11 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C02C71F8EB12500ACDA11 /* Keys.swift */; };
+		D35C02CA1F8EB13900ACDA11 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C02C91F8EB13900ACDA11 /* Contact.swift */; };
+		D35C02D91F8EC5C600ACDA11 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C02D81F8EC5C600ACDA11 /* ContactController.swift */; };
+		D35C02DB1F8EC64100ACDA11 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C02DA1F8EC64100ACDA11 /* CloudKitManager.swift */; };
+		D35C03081F9005B700ACDA11 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C03071F9005B700ACDA11 /* ContactsViewController.swift */; };
+		D35C030A1F9005D100ACDA11 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C03091F9005D100ACDA11 /* ContactsTableViewController.swift */; };
+		D35C030D1F9010C900ACDA11 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35C030C1F9010C900ACDA11 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D35C02B01F8EAD3700ACDA11 /* unit 4 review.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unit 4 review.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35C02B31F8EAD3700ACDA11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D35C02B51F8EAD3700ACDA11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D35C02B81F8EAD3700ACDA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35C02BA1F8EAD3700ACDA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35C02BD1F8EAD3700ACDA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D35C02BF1F8EAD3700ACDA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35C02C71F8EB12500ACDA11 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		D35C02C91F8EB13900ACDA11 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D35C02CF1F8EB1BE00ACDA11 /* unit 4 review.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "unit 4 review.entitlements"; sourceTree = "<group>"; };
+		D35C02D81F8EC5C600ACDA11 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		D35C02DA1F8EC64100ACDA11 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		D35C03071F9005B700ACDA11 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		D35C03091F9005D100ACDA11 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		D35C030C1F9010C900ACDA11 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35C030D1F9010C900ACDA11 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,7 @@
 			children = (
 				D35C02B21F8EAD3700ACDA11 /* unit 4 review */,
 				D35C02B11F8EAD3700ACDA11 /* Products */,
+				D35C030B1F9010C900ACDA11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,76 @@
 		D35C02B21F8EAD3700ACDA11 /* unit 4 review */ = {
 			isa = PBXGroup;
 			children = (
+				D35C02CF1F8EB1BE00ACDA11 /* unit 4 review.entitlements */,
+				D35C02CE1F8EB19900ACDA11 /* UI */,
+				D35C02CD1F8EB18400ACDA11 /* viewController */,
+				D35C02CC1F8EB17400ACDA11 /* CloudKit */,
+				D35C02CB1F8EB15D00ACDA11 /* ModelControllers */,
+				D35C02C51F8EB02A00ACDA11 /* Models */,
+				D35C02C61F8EB10C00ACDA11 /* Keys */,
 				D35C02B31F8EAD3700ACDA11 /* AppDelegate.swift */,
-				D35C02B51F8EAD3700ACDA11 /* ViewController.swift */,
-				D35C02B71F8EAD3700ACDA11 /* Main.storyboard */,
 				D35C02BA1F8EAD3700ACDA11 /* Assets.xcassets */,
-				D35C02BC1F8EAD3700ACDA11 /* LaunchScreen.storyboard */,
 				D35C02BF1F8EAD3700ACDA11 /* Info.plist */,
 			);
 			path = "unit 4 review";
+			sourceTree = "<group>";
+		};
+		D35C02C51F8EB02A00ACDA11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D35C02C91F8EB13900ACDA11 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D35C02C61F8EB10C00ACDA11 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				D35C02C71F8EB12500ACDA11 /* Keys.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		D35C02CB1F8EB15D00ACDA11 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D35C02D81F8EC5C600ACDA11 /* ContactController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		D35C02CC1F8EB17400ACDA11 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				D35C02DA1F8EC64100ACDA11 /* CloudKitManager.swift */,
+			);
+			path = CloudKit;
+			sourceTree = "<group>";
+		};
+		D35C02CD1F8EB18400ACDA11 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				D35C03091F9005D100ACDA11 /* ContactsTableViewController.swift */,
+				D35C03071F9005B700ACDA11 /* ContactsViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		D35C02CE1F8EB19900ACDA11 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D35C02B71F8EAD3700ACDA11 /* Main.storyboard */,
+				D35C02BC1F8EAD3700ACDA11 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D35C030B1F9010C900ACDA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35C030C1F9010C900ACDA11 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +174,14 @@
 					D35C02AF1F8EAD3700ACDA11 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +221,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35C02B61F8EAD3700ACDA11 /* ViewController.swift in Sources */,
 				D35C02B41F8EAD3700ACDA11 /* AppDelegate.swift in Sources */,
+				D35C02C81F8EB12500ACDA11 /* Keys.swift in Sources */,
+				D35C02D91F8EC5C600ACDA11 /* ContactController.swift in Sources */,
+				D35C02CA1F8EB13900ACDA11 /* Contact.swift in Sources */,
+				D35C02DB1F8EC64100ACDA11 /* CloudKitManager.swift in Sources */,
+				D35C03081F9005B700ACDA11 /* ContactsViewController.swift in Sources */,
+				D35C030A1F9005D100ACDA11 /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +364,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "unit 4 review/unit 4 review.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27CK957U72;
 				INFOPLIST_FILE = "unit 4 review/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.unit-4-review";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrainLicea.unit-4-review";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -288,10 +380,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "unit 4 review/unit 4 review.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27CK957U72;
 				INFOPLIST_FILE = "unit 4 review/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.unit-4-review";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrainLicea.unit-4-review";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
