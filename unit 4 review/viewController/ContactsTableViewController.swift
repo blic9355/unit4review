@@ -13,6 +13,8 @@ class ContactsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(refresh), name: ContactController.shared.notification, object: nil)
+        
+        ContactController.shared.fetchContact()
     }
     
     @objc func refresh() {
